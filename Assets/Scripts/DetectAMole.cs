@@ -21,7 +21,7 @@ public class DetectAMole : MonoBehaviour {
         {
             if(hit.transform.gameObject.GetComponent<Mole>())
             {
-                hit.transform.gameObject.GetComponent<Mole>().Hide();
+                hit.transform.gameObject.GetComponent<Mole>().Hitted();
                 GameObject.FindObjectOfType<Hammer>().HitAMole(hit.transform.position);
                 score++;
             }

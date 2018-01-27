@@ -6,12 +6,14 @@ public class Mole : MonoBehaviour {
     private Vector3 target;
     private float timer;
     private bool spawned;
+    private AudioSource audiosource;
 
     public float hideDistance=-1.5f, showDistance=-0.26f;
     public float speed = 4f;
 	// Use this for initialization
 	void Start () {
         spawned = false;
+        audiosource = GetComponent<AudioSource>();
         target = new Vector3(transform.localPosition.x,hideDistance,transform.localPosition.z);
 	}
 	
@@ -32,6 +34,13 @@ public class Mole : MonoBehaviour {
 
     public void Hide()
     {
+        target = new Vector3(transform.localPosition.x, hideDistance, transform.localPosition.z);
+        spawned = false;
+    }
+
+    public void Hitted()
+    {
+        audiosource.Play();
         target = new Vector3(transform.localPosition.x, hideDistance, transform.localPosition.z);
         spawned = false;
     }
