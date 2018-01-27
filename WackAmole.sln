@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WackAmole", "WackAmole.csproj", "{1F6F5724-4AC3-6047-2B9F-A51526580744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WackAmole.Editor", "WackAmole.Editor.csproj", "{882BD91B-D28B-9D8A-2F9C-03DE3B1D0BA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F6F5724-4AC3-6047-2B9F-A51526580744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6F5724-4AC3-6047-2B9F-A51526580744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6F5724-4AC3-6047-2B9F-A51526580744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6F5724-4AC3-6047-2B9F-A51526580744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{882BD91B-D28B-9D8A-2F9C-03DE3B1D0BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882BD91B-D28B-9D8A-2F9C-03DE3B1D0BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882BD91B-D28B-9D8A-2F9C-03DE3B1D0BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882BD91B-D28B-9D8A-2F9C-03DE3B1D0BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
