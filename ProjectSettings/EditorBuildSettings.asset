@@ -9,8 +9,20 @@ EditorBuildSettings:
     path: Assets/_Scenes/MainMenu.unity
     guid: b5d80e5c48ee9a740a2f54ce8ce8dc2d
   - enabled: 1
-    path: Assets/_Scenes/Game.unity
+    path: Assets/_Scenes/Choose Level.unity
+    guid: 4e4d2c42dbd4572418d51afe18f5774c
+  - enabled: 1
+    path: Assets/_Scenes/Game Easy.unity
     guid: a9fc15df4fe20ca41ad55594910dcf37
+  - enabled: 1
+    path: Assets/_Scenes/Game Moderate.unity
+    guid: 46b4be8849a75ed4e9ad8f8cdc163e9c
+  - enabled: 1
+    path: Assets/_Scenes/Game Hard.unity
+    guid: 5232818914f16654982cbc89cb69962e
   - enabled: 1
     path: Assets/_Scenes/GameOver.unity
     guid: 51d1cdde0277d1d4e8f3f402008d245a
+  - enabled: 1
+    path: Assets/_Scenes/Credits.unity
+    guid: 1036df29b3170fc4f96bf79bfa19bf6a
